@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Avenir Next';
-  background: blue; }
+  background: #f4f4f4; }
 
 ul {
   font-size: 0.875rem;
@@ -110,7 +110,7 @@ svg {
     position: absolute;
     pointer-events: none;
     border-color: #cccccc;
-    border-top-color: #4c4c4c;
+    border-top-color: #f4f4f4;
     border-width: 16px;
     margin-left: 16px; }
   .nfPopover .nfText {
