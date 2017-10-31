@@ -90,6 +90,9 @@ svg {
   position: absolute;
   left: calc(50% - 9px);
   top: 300px;
+  &:hover{
+    cursor: pointer;
+  }
 }
 
 
@@ -141,8 +144,8 @@ svg {
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-color: #cccccc;
-    border-top-color: #f4f4f4; //black
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #4c4c4c; //black
     // border-top-color: #4c4c4c;
     border-width: 16px;
     margin-left: 16px;
