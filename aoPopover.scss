@@ -31,9 +31,8 @@ svg {
     cursor: pointer;
   }
 }
-
-
 //Information Popover
+
 .informPopover {
   padding-bottom: 20px;
   width: 350px;
@@ -70,8 +69,9 @@ svg {
     opacity: 100;
     transition: all 0.4s cubic-bezier(0.4, 0.0, 1, 1);
   }
-  &.end{
-    top: 0px;
+
+  &.end {
+    top: 0;
   }
 
   .informText {
@@ -90,14 +90,14 @@ svg {
   position: absolute;
   left: calc(50% - 9px);
   top: 300px;
-  &:hover{
+
+  &:hover {
     cursor: pointer;
   }
 }
+//New Feature Popover Up
 
-
-//New Feature Popover
-.nfPopover {
+.nfPopoverTop {
   margin-top: 100px;
   top: calc(100vh - 260px);
   width: 230px;
@@ -105,13 +105,13 @@ svg {
   //background: #4c4c4c; //before #242424
   border: solid #CCCCCC 1px;
   position: absolute;
-  left: calc(50% - 115px);
+  left: calc(20% - 115px);
   box-shadow: none;
   max-height: 200px;
   visibility: visible;
   opacity: 100;
-  animation: nfPopover 2s ease;
-  @keyframes nfPopover {
+  animation: nfPopoverTop 2s ease;
+  @keyframes nfPopoverTop {
     0%,
     100%,
     20%,
@@ -149,6 +149,286 @@ svg {
     // border-top-color: #4c4c4c;
     border-width: 16px;
     margin-left: 16px;
+  }
+
+  .nfText {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.875rem;
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+  }
+
+  footer {
+    overflow: hidden;
+    margin-right: 20px;
+
+    .gotit {
+      // background: #2493F2;
+      background: #005e95;
+      border: solid #005e95 1px;
+      color: white;
+      padding: 8px 15px;
+      text-align: center;
+      text-decoration: none;
+      float: right;
+      font-size: 1rem;
+      font-weight: 300;
+      margin-bottom: 20px;
+
+      &:hover {
+        cursor: pointer;
+        background: #0079c1;
+      }
+
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+}
+
+.nfPopoverBottom {
+  margin-top: 100px;
+  top: calc(100vh - 260px);
+  width: 230px;
+  background: #4c4c4c;
+  //background: #4c4c4c; //before #242424
+  border: solid #CCCCCC 1px;
+  position: absolute;
+  left: calc(40% - 115px); //50% - 115px
+  box-shadow: none;
+  max-height: 200px;
+  visibility: visible;
+  opacity: 100;
+  animation: nfPopoverBottom 2s ease;
+  @keyframes nfPopoverBottom {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+      transform: translateY(0);
+    }
+
+    40% {
+      transform: translateY(+30px);
+    }
+
+    60% {
+      transform: translateY(+15px);
+    }
+  }
+
+  &.hidden {
+    visibility: hidden;
+    transition: all 0.4s ease;
+    opacity: 0;
+  }
+
+  &:after {
+    content: "";
+    bottom: 100%;
+    left: 37%;
+    border: solid #CCCCCC 1px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #4c4c4c; //black
+    // border-top-color: #4c4c4c;
+    border-width: 16px;
+    margin-left: 16px;
+  }
+
+  .nfText {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.875rem;
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+  }
+
+  footer {
+    overflow: hidden;
+    margin-right: 20px;
+
+    .gotit {
+      // background: #2493F2;
+      background: #005e95;
+      border: solid #005e95 1px;
+      color: white;
+      padding: 8px 15px;
+      text-align: center;
+      text-decoration: none;
+      float: right;
+      font-size: 1rem;
+      font-weight: 300;
+      margin-bottom: 20px;
+
+      &:hover {
+        cursor: pointer;
+        background: #0079c1;
+      }
+
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+}
+
+.nfPopoverRight {
+  margin-top: 100px;
+  top: calc(100vh - 260px);
+  width: 230px;
+  background: #4c4c4c;
+  //background: #4c4c4c; //before #242424
+  border: solid #CCCCCC 1px;
+  position: absolute;
+  left: calc(60% - 115px); //50% - 115px
+  box-shadow: none;
+  max-height: 200px;
+  visibility: visible;
+  opacity: 100;
+  animation: nfPopoverRight 2s ease;
+  @keyframes nfPopoverRight {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+      transform: translateX(0);
+    }
+
+    40% {
+      transform: translateX(+30px);
+    }
+
+    60% {
+      transform: translateX(+15px);
+    }
+  }
+
+  &.hidden {
+    visibility: hidden;
+    transition: all 0.4s ease;
+    opacity: 0;
+  }
+
+  &:after {
+    content: "";
+    right: 100%;
+    top: 37%;
+    border: solid #CCCCCC 1px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #4c4c4c; //black
+    // border-top-color: #4c4c4c;
+    border-width: 16px;
+    margin-left: 16px;
+  }
+
+  .nfText {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.875rem;
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+  }
+
+  footer {
+    overflow: hidden;
+    margin-right: 20px;
+
+    .gotit {
+      // background: #2493F2;
+      background: #005e95;
+      border: solid #005e95 1px;
+      color: white;
+      padding: 8px 15px;
+      text-align: center;
+      text-decoration: none;
+      float: right;
+      font-size: 1rem;
+      font-weight: 300;
+      margin-bottom: 20px;
+
+      &:hover {
+        cursor: pointer;
+        background: #0079c1;
+      }
+
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+}
+
+.nfPopoverLeft {
+  margin-top: 100px;
+  top: calc(100vh - 260px);
+  width: 230px;
+  background: #4c4c4c;
+  //background: #4c4c4c; //before #242424
+  border: solid #CCCCCC 1px;
+  position: absolute;
+  left: calc(80% - 115px); //50% - 115px
+  box-shadow: none;
+  max-height: 200px;
+  visibility: visible;
+  opacity: 100;
+  animation: nfPopoverLeft 2s ease;
+  @keyframes nfPopoverLeft {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+      transform: translateX(0);
+    }
+
+    40% {
+      transform: translateX(-30px);
+    }
+
+    60% {
+      transform: translateX(-15px);
+    }
+  }
+
+
+  &.hidden {
+    visibility: hidden;
+    transition: all 0.4s ease;
+    opacity: 0;
+  }
+
+  &:after {
+    content: "";
+    left: 100%;
+    top: 37%;
+    border: solid #CCCCCC 1px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-left-color: #4c4c4c; //black
+    // border-top-color: #4c4c4c;
+    border-width: 16px;
+    margin-right: 16px;
   }
 
   .nfText {
