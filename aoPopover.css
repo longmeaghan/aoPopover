@@ -277,7 +277,7 @@ svg {
   .nfPopoverTop footer {
     overflow: hidden;
     margin-right: 20px; }
-    .nfPopoverTop footer .gotit {
+    .nfPopoverTop footer .gotitTop {
       background: #005e95;
       border: solid #005e95 1px;
       color: white;
@@ -288,10 +288,10 @@ svg {
       font-size: 1rem;
       font-weight: 300;
       margin-bottom: 20px; }
-      .nfPopoverTop footer .gotit:hover {
+      .nfPopoverTop footer .gotitTop:hover {
         cursor: pointer;
         background: #0079c1; }
-      .nfPopoverTop footer .gotit:focus {
+      .nfPopoverTop footer .gotitTop:focus {
         outline: 0; }
 
 .nfPopoverBottom {
@@ -346,7 +346,7 @@ svg {
   .nfPopoverBottom footer {
     overflow: hidden;
     margin-right: 20px; }
-    .nfPopoverBottom footer .gotit {
+    .nfPopoverBottom footer .gotitBottom {
       background: #005e95;
       border: solid #005e95 1px;
       color: white;
@@ -357,10 +357,10 @@ svg {
       font-size: 1rem;
       font-weight: 300;
       margin-bottom: 20px; }
-      .nfPopoverBottom footer .gotit:hover {
+      .nfPopoverBottom footer .gotitBottom:hover {
         cursor: pointer;
         background: #0079c1; }
-      .nfPopoverBottom footer .gotit:focus {
+      .nfPopoverBottom footer .gotitBottom:focus {
         outline: 0; }
 
 .nfPopoverRight {
@@ -415,7 +415,7 @@ svg {
   .nfPopoverRight footer {
     overflow: hidden;
     margin-right: 20px; }
-    .nfPopoverRight footer .gotit {
+    .nfPopoverRight footer .gotitRight {
       background: #005e95;
       border: solid #005e95 1px;
       color: white;
@@ -426,10 +426,10 @@ svg {
       font-size: 1rem;
       font-weight: 300;
       margin-bottom: 20px; }
-      .nfPopoverRight footer .gotit:hover {
+      .nfPopoverRight footer .gotitRight:hover {
         cursor: pointer;
         background: #0079c1; }
-      .nfPopoverRight footer .gotit:focus {
+      .nfPopoverRight footer .gotitRight:focus {
         outline: 0; }
 
 .nfPopoverLeft {
@@ -484,7 +484,7 @@ svg {
   .nfPopoverLeft footer {
     overflow: hidden;
     margin-right: 20px; }
-    .nfPopoverLeft footer .gotit {
+    .nfPopoverLeft footer .gotitLeft {
       background: #005e95;
       border: solid #005e95 1px;
       color: white;
@@ -495,10 +495,10 @@ svg {
       font-size: 1rem;
       font-weight: 300;
       margin-bottom: 20px; }
-      .nfPopoverLeft footer .gotit:hover {
+      .nfPopoverLeft footer .gotitLeft:hover {
         cursor: pointer;
         background: #0079c1; }
-      .nfPopoverLeft footer .gotit:focus {
+      .nfPopoverLeft footer .gotitLeft:focus {
         outline: 0; }
 
 /*# sourceMappingURL=aoPopover.css.map */

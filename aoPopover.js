@@ -12,18 +12,18 @@ $(".closeInformTop").click(function() {
 });
 
 //newfeature popover
-$(".gotit").click(function(){
+$(".gotitTop").click(function(){
   $(".nfPopoverTop").addClass("hidden");
 });
 
-$(".gotit").click(function(){
+$(".gotitBottom").click(function(){
   $(".nfPopoverBottom").addClass("hidden");
 });
 
-$(".gotit").click(function(){
+$(".gotitRight").click(function(){
   $(".nfPopoverRight").addClass("hidden");
 });
 
-$(".gotit").click(function(){
+$(".gotitLeft").click(function(){
   $(".nfPopoverLeft").addClass("hidden");
 });
