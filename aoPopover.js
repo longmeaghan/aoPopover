@@ -14,5 +14,16 @@ $(".closeInformTop").click(function() {
 //newfeature popover
 $(".gotit").click(function(){
   $(".nfPopoverTop").addClass("hidden");
-  // $(".nfPopover").addClass("@keyframes fade-out-down");
+});
+
+$(".gotit").click(function(){
+  $(".nfPopoverBottom").addClass("hidden");
+});
+
+$(".gotit").click(function(){
+  $(".nfPopoverRight").addClass("hidden");
+});
+
+$(".gotit").click(function(){
+  $(".nfPopoverLeft").addClass("hidden");
 });
