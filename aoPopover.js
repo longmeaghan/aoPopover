@@ -2,13 +2,13 @@ $( document ).ready(function() {
     console.log( "ready!" );
 });
 
-//information popover
-$(".openInform").click(function() {
- $(".informPopover").addClass("visible");
+//information popover TOP
+$(".openInformTop").click(function() {
+ $(".informPopoverTop").addClass("visible");
 });
-$(".closeInform").click(function() {
-  $(".informPopover").removeClass("visible");
-  $(".informPopover").addClass("end");
+$(".closeInformTop").click(function() {
+  $(".informPopoverTop").removeClass("visible");
+  $(".informPopoverTop").addClass("end");
 });
 
 //newfeature popover
