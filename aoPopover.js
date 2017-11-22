@@ -19,6 +19,24 @@ $(".closeInformBottom").click(function() {
   $(".informPopoverBottom").addClass("end");
 });
 
+$(".openInformRight").click(function() {
+  $(".informPopoverRight").addClass("visible");
+});
+$(".closeInformRight").click(function() {
+  $(".informPopoverRight").removeClass("visible");
+  $(".informPopoverRight").addClass("end");
+});
+
+$(".openInformLeft").click(function() {
+  $(".informPopoverLeft").addClass("visible");
+});
+$(".closeInformLeft").click(function() {
+  $(".informPopoverLeft").removeClass("visible");
+  $(".informPopoverLeft").addClass("end");
+});
+
+
+
 //newfeature popover
 $(".gotitTop").click(function() {
   $(".nfPopoverTop").addClass("hidden");
