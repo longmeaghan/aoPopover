@@ -90,7 +90,7 @@ svg {
   transition: all 0.4s cubic-bezier(0, 0, 0.2, 1); }
   .informPopoverBottom:after {
     content: "";
-    top: 100%;
+    bottom: 100%;
     left: 50%;
     border: solid #CCCCCC;
     height: 0;
@@ -98,7 +98,7 @@ svg {
     position: absolute;
     pointer-events: none;
     border-color: rgba(255, 255, 255, 0);
-    border-top-color: white;
+    border-bottom-color: white;
     border-width: 16px;
     margin-left: -16px; }
   .informPopoverBottom.visible {
@@ -140,15 +140,15 @@ svg {
   transition: all 0.4s cubic-bezier(0, 0, 0.2, 1); }
   .informPopoverRight:after {
     content: "";
-    top: 100%;
-    left: 50%;
+    right: 100%;
+    top: 37%;
     border: solid #CCCCCC;
     height: 0;
     width: 0;
     position: absolute;
     pointer-events: none;
     border-color: rgba(255, 255, 255, 0);
-    border-top-color: white;
+    border-right-color: white;
     border-width: 16px;
     margin-left: -16px; }
   .informPopoverRight.visible {
@@ -190,17 +190,17 @@ svg {
   transition: all 0.4s cubic-bezier(0, 0, 0.2, 1); }
   .informPopoverLeft:after {
     content: "";
-    top: 100%;
-    left: 50%;
-    border: solid #CCCCCC;
+    left: 100%;
+    top: 37%;
+    border: solid #CCCCCC 1px;
     height: 0;
     width: 0;
     position: absolute;
     pointer-events: none;
     border-color: rgba(255, 255, 255, 0);
-    border-top-color: white;
+    border-left-color: white;
     border-width: 16px;
-    margin-left: -16px; }
+    margin-right: 16px; }
   .informPopoverLeft.visible {
     top: 0;
     visibility: visible;
