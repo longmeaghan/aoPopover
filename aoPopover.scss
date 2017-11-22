@@ -100,11 +100,11 @@ svg {
 .informPopoverBottom {
   padding-bottom: 20px;
   width: 350px;
-  top: -20px; //beginning 150px
+  top: 30px; //beginning 150px
   background: #ffffff;
   position: absolute;
   left: calc(40% - 175px);
-  margin-top: 100px;
+  margin-top: 345px;
   box-shadow: 0 0 16px 0 rgba(0,0,0,0.05);
   max-height: 300px;
   visibility: hidden;
@@ -165,8 +165,8 @@ svg {
   top: -20px; //beginning 150px
   background: #ffffff;
   position: absolute;
-  left: calc(60% - 175px);
-  margin-top: 100px;
+  left: calc(73% - 175px);
+  margin-top: 225px;
   box-shadow: 0 0 16px 0 rgba(0,0,0,0.05);
   max-height: 300px;
   visibility: hidden;
@@ -176,7 +176,7 @@ svg {
   &:after {
     content: "";
     right: 100%;
-    top: 37%;
+    top: 40%;
     border: solid #CCCCCC;
     height: 0;
     width: 0;
@@ -227,8 +227,8 @@ svg {
   top: -20px; //beginning 150px
   background: #ffffff;
   position: absolute;
-  left: calc(80% - 175px);
-  margin-top: 100px;
+  left: calc(67% - 175px);
+  margin-top: 225px;
   box-shadow: 0 0 16px 0 rgba(0,0,0,0.05);
   max-height: 300px;
   visibility: hidden;
