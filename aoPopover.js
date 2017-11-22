@@ -13,6 +13,6 @@ $(".closeInformTop").click(function() {
 
 //newfeature popover
 $(".gotit").click(function(){
-  $(".nfPopover").addClass("hidden");
+  $(".nfPopoverTop").addClass("hidden");
   // $(".nfPopover").addClass("@keyframes fade-out-down");
 });
