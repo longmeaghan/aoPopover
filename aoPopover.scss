@@ -225,7 +225,7 @@ svg {
   width: 350px;
   background: #ffffff;
   position: absolute;
-  left: calc(66% - 175px);
+  left: calc(67% - 175px);
   margin-top: 225px;
   box-shadow: 0 0 16px 0 rgba(0,0,0,0.05);
   max-height: 300px;
@@ -249,14 +249,14 @@ svg {
   }
 
   &.visible {
-    left: calc(67% - 175px);
+    left: calc(69% - 175px);
     visibility: visible;
     opacity: 100;
     transition: all 0.4s cubic-bezier(0.4, 0.0, 1, 1);
   }
 
   &.end {
-    left: calc(67% - 175px);
+    left: calc(68% - 175px);
   }
 
   .informText {
